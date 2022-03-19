@@ -10,7 +10,7 @@ const PostDetails = ({ post }) => {
 
   if (router.isFallback) {
     return <Loader />;
-  }
+  } 
 
   return (
     <>
